@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: 1.2em/1.4 'Open Sans', sans-serif; 
+}
+
+header, footer {
+    background-color: #8c6239;
+    color: #fff;
+    padding: 1em;
+}
+
+header .title {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #b49b10; 
+    border-bottom: 2px solid #b49b10;
+}
+
+main {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+article {
+    flex: 0 0 70%;
+    color: #b49b10;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nutrition-info {
+    background-color: #8c6239;
+    color: #fff;
+    padding: 1em;
+    flex: 0 0 25%;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.quick-contact-form button {
+    padding: 0.5em 1em;
+    background-color: #b49b10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.quick-contact-form button:hover {
+    background-color: #9a8310;
+}
